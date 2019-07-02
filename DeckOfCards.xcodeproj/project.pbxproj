@@ -12,6 +12,9 @@
 		538FE99D22CBECF2005A3836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538FE99C22CBECF2005A3836 /* Assets.xcassets */; };
 		538FE9A022CBECF2005A3836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538FE99E22CBECF2005A3836 /* LaunchScreen.storyboard */; };
 		538FE9A322CBECF2005A3836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 538FE9A222CBECF2005A3836 /* main.m */; };
+		538FE9AF22CBEF8D005A3836 /* KSCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 538FE9AE22CBEF8D005A3836 /* KSCard.m */; };
+		538FE9B222CBF83A005A3836 /* KSCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538FE9B122CBF83A005A3836 /* KSCardController.m */; };
+		538FE9B522CC1879005A3836 /* KSCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538FE9B422CC1879005A3836 /* KSCardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,12 @@
 		538FE99F22CBECF2005A3836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		538FE9A122CBECF2005A3836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		538FE9A222CBECF2005A3836 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		538FE9AD22CBEF8D005A3836 /* KSCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSCard.h; sourceTree = "<group>"; };
+		538FE9AE22CBEF8D005A3836 /* KSCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSCard.m; sourceTree = "<group>"; };
+		538FE9B022CBF83A005A3836 /* KSCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSCardController.h; sourceTree = "<group>"; };
+		538FE9B122CBF83A005A3836 /* KSCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSCardController.m; sourceTree = "<group>"; };
+		538FE9B322CC1879005A3836 /* KSCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSCardViewController.h; sourceTree = "<group>"; };
+		538FE9B422CC1879005A3836 /* KSCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSCardViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +89,8 @@
 		538FE9AA22CBED06005A3836 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				538FE9B322CC1879005A3836 /* KSCardViewController.h */,
+				538FE9B422CC1879005A3836 /* KSCardViewController.m */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -87,6 +98,8 @@
 		538FE9AB22CBED10005A3836 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				538FE9B022CBF83A005A3836 /* KSCardController.h */,
+				538FE9B122CBF83A005A3836 /* KSCardController.m */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -94,6 +107,8 @@
 		538FE9AC22CBED16005A3836 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				538FE9AD22CBEF8D005A3836 /* KSCard.h */,
+				538FE9AE22CBEF8D005A3836 /* KSCard.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,6 +184,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				538FE9A322CBECF2005A3836 /* main.m in Sources */,
+				538FE9B222CBF83A005A3836 /* KSCardController.m in Sources */,
+				538FE9B522CC1879005A3836 /* KSCardViewController.m in Sources */,
+				538FE9AF22CBEF8D005A3836 /* KSCard.m in Sources */,
 				538FE99522CBECF2005A3836 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
